@@ -2,15 +2,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Ladino",
+    "title": "Prueba C00",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n1 + 1"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Primeras pruebdddas",
+    "title": "Graficos",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "De que va esto\n\n# Load the ggplot2 library\nlibrary(ggplot2)\n# ggplot wants a data frame in long format\n# Stack the values\n\nx = seq(1, 10, 0.1)\ncosx = cos(x)\nsinx = sin(x)\n\n\nvalues = c(cosx, sinx)\n# Create a variable that indicates what is being plotted\nfunction.type = rep(c(\"cos(x)\", \"sin(x)\"), each = length(x))\nxval = c(x, x)\nplot.dat = data.frame(values, xval, function.type)\n\nggplot(plot.dat, \n       aes(x = xval, y = values, colour = function.type))+\n  geom_line()"
+  },
+  {
+    "objectID": "Otraventan.html",
+    "href": "Otraventan.html",
+    "title": "Prueba textos y ecuaciones",
+    "section": "",
+    "text": "Ecuaciones\n\\[\ny_{i} = \\beta_{0} + \\sum_{i}^{n} \\beta{i}X_{i} + \\varepsilon_{i}\n\\]"
   }
 ]

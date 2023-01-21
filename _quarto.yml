@@ -9,10 +9,14 @@ website:
       - href: index.qmd
         text: Home
       - Otraventan.qmd
+      - about.qmd
 
 format:
   html:
-    theme: sandstone
+    theme: Darkly
+    mainfont: Montserrat
+    fontsize: 1.3rem
+    fontcolor: "white"
     css: styles.css
     toc: true
 

@@ -1,9 +1,27 @@
 ---
-title: "Primeras pruebdddas"
+title: "Graficos"
 ---
 
-About this site
+De que va esto
 
 ```{r}
-1 + 1
+# Load the ggplot2 library
+library(ggplot2)
+# ggplot wants a data frame in long format
+# Stack the values
+
+x = seq(1, 10, 0.1)
+cosx = cos(x)
+sinx = sin(x)
+
+
+values = c(cosx, sinx)
+# Create a variable that indicates what is being plotted
+function.type = rep(c("cos(x)", "sin(x)"), each = length(x))
+xval = c(x, x)
+plot.dat = data.frame(values, xval, function.type)
+
+ggplot(plot.dat, 
+       aes(x = xval, y = values, colour = function.type))+
+  geom_line()
 ```

@@ -1,11 +1,9 @@
 ---
-title: "OtraVentana"
+title: "Prueba textos y ecuaciones"
 ---
 
-#### Cosas 
+#### Ecuaciones
 
--   Zelda
-
--   Teatro
-
--   Python
+$$
+y_{i} = \beta_{0} + \sum_{i}^{n} \beta{i}X_{i} + \varepsilon_{i}
+$$
