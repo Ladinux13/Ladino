@@ -2,9 +2,10 @@
 title: "OtraVentana"
 ---
 
-### Cosas favoritas
+#### Cosas 
 
-- Teatro
-- Programar
-- Jugar Zelda
----
+-   Zelda
+
+-   Teatro
+
+-   Python
