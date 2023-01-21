@@ -6,10 +6,9 @@ website:
   title: "Primeras pruebas"
   navbar:
     left:
-      - href: index.qmd
+      - href: about.qmd
         text: Home
       - Otraventan.qmd
-      - about.qmd
 
 format:
   html:
